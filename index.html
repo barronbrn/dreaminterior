@@ -1,0 +1,781 @@
+<!--  Nama    : Dani Herawan 
+      NIM     : 10122331
+      Kelas   : IF-9       
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Css Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    
+    <!-- Mycss -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Iconboxs -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- Swiper js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <title>Dream Interior</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar-scrollspy">
+
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3">
+        <div class="container">
+          <a class="navbar-brand" href="#home">Dream Interior</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end align-items-lg-center" id="navbarNavAltMarkup">
+            <div class="navbar-nav me-5" id="#navbar-scrollspy">
+              <a class="nav-link active me-4" href="#home">Home</a>
+              <a class="nav-link me-4" href="#product">Product</a>
+              <a class="nav-link me-4" href="#article">Article</a>
+              <a class="nav-link me-4" href="#contact">Contact us</a>
+              <div class="icon-home mt-3 mt-lg-2">
+                <a href="#"><i class="bx bx-user"></i></a>
+                <a href="#"><i class="bx bx-shopping-bag ms-3"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- End Navbar -->
+
+    <!-- Home -->
+    <section class="home" id="home">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-lg-end content-left">
+            <h1 class="heading">Make Your Interior More Modern and Minimalist</h1>
+            <p class="subheading text-white">There are several product variants that oyu can local and foreign brands</p>
+            <div class="btn-home mt-5">
+              <a href="#" class="btn btn-buy py-2 px-3 px-lg-4 py-lg-3">Buy Now</a>
+              <a href="#" class="btn btn-more ms-4 py-2 px-3 px-lg-4 py-lg-3">Explore More</a>
+            </div>
+          </div>
+          <div class="col-lg-6 position-relative d-none d-lg-block ">
+            <img src="./multimedia/image/home.png" class="img-fluid position-absolute" alt="Home img" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Home -->
+
+    <!-- service -->
+    <section class="service section-margin" id="service">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h1 class="heading">Our Service</h1>
+            <p class="subheading">Transform Your Living Space with Our Exceptional Furniture Service, Crafting Comfort and Style Perfectly for You</p>
+            <hr>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-4">
+            <div class="card-service rounded-3 d-flex justify-content-between align-items-center p-4">
+              <div class="detail">
+                <p class="label">Minimal Design</p>
+                <h3 class="heading">TEODORES Chair</h3>
+                  <a href="#" class="btn-service btn mt-4"><i class="bx bx-shopping-bag me-3"></i>Shop</a>
+              </div>
+              <div class="img-service">
+                <img src="./multimedia/image/kursi1.png" alt="Teodores" width="150px" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 my-3 my-lg-0">
+            <div class="card-service rounded-3 d-flex justify-content-between align-items-center p-4">
+              <div class="detail">
+                <p class="label">Minimal Design</p>
+                <h3 class="heading">GRASALA Chair</h3>
+                  <a href="#" class="btn-service btn mt-4"><i class="bx bx-shopping-bag me-3"></i>Shop</a>
+              </div>
+              <div class="img-service">
+                <img src="./multimedia/image/kursi2.png" alt="Grasala" width="150px" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card-service rounded-3 d-flex justify-content-between align-items-center p-4">
+              <div class="detail">
+                <p class="label">Minimal Desogn</p>
+                <h3 class="heading">KARLJAN Chair</h3>
+                  <a href="#" class="btn-service btn mt-4"><i class="bx bx-shopping-bag me-3"></i>Shop</a>
+              </div>
+              <div class="img-service">
+                <img src="./multimedia/image/kursi3.png" alt="Karljan" width="150px" />
+              </div>
+            </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <hr>
+    </section>
+    <!-- End Service -->
+
+    <!-- Banner 1 -->
+    <section class="banner1 section-margin px-2">
+      <div class="container rounded-3 pt-5 pt-lg-3 pb-lg-2">
+        <div class="row text-white h-100 d-lg-flex align-items-lg-center">
+          <div class="col-lg-6">
+            <p class="label">Happy Sunday</p>
+            <h3 class="heading">Sale Up To <span>50%</span> Off</h3>
+            <a href="#" class="btn btn-banner1 mt-4">Shop Now</a>
+          </div>
+          <div class="col-lg-6 position-relative">
+            <img src="./multimedia/image/banner1.png"  class="img-fluid position-relative end-0" alt="Sofa">
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+    <br>
+    <!-- End Banner 1 -->
+
+    <!-- Product -->
+    <section class="product" id="product">
+      <div class="container ">
+        <div class="row text-center">
+          <div class="col">
+            <h3 class="heading">Our Product</h3>
+            <p class="subheading">Available for all your need</p>
+          </div>
+        </div>
+        <hr>
+        <div class="row mt-4">
+          <div class="col popular d-lg-flex justify-content-lg-between">
+            <h3 class="heading">Popular Categories</h3>
+            <div class="toggle-slider d-flex d-lg-block justify-content-end">
+              <i class='bx bxs-chevron-left-circle' ></i>
+              <i class='bx bxs-chevron-right-circle' ></i>
+            </div>
+          </div>
+        </div>
+  
+        <div class="row mt-4 product-popular">
+          <div class="col">
+            <!-- Swiper -->
+            <div class="swiper mySwiperPopular">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide card-product">
+                  <div class="img-box rounded-3 justify-content-center align-items-center py-4 px-2">
+                    <img src="./multimedia/image/kursi3.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="detail-product mt-3 d-flex justify-content-between">
+                      <div class="info">
+                        <p class="label text-center py-2">Chair</p>
+                        <p>50 Product</p>
+                      </div>
+                      <div class="btn-card">
+                        <a href="#" class="btn"><i class=" bx bx-shopping-bag"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                <div class="swiper-slide card-product">
+                  <div class="img-box rounded-3 justify-content-center align-items-center py-4 px-2">
+                    <img src="./multimedia/image/product2.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="detail-product mt-3 d-flex justify-content-between">
+                      <div class="info">
+                        <p class="label text-center py-2">Table</p>
+                        <p>50 Product</p>
+                      </div>
+                      <div class="btn-card">
+                        <a href="#" class="btn"><i class=" bx bx-shopping-bag"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                <div class="swiper-slide card-product">
+                  <div class="img-box rounded-3 justify-content-center align-items-center py-4 px-2">
+                    <img src="./multimedia/image/product3.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="detail-product mt-3 d-flex justify-content-between">
+                      <div class="info">
+                        <p class="label text-center py-2">Pillow</p>
+                        <p>50 Product</p>
+                      </div>
+                      <div class="btn-card">
+                        <a href="#" class="btn"><i class=" bx bx-shopping-bag"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                <div class="swiper-slide card-product">
+                  <div class="img-box rounded-3 justify-content-center align-items-center py-4 px-2">
+                    <img src="./multimedia/image/product4.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="detail-product mt-3 d-flex justify-content-between">
+                      <div class="info">
+                        <p class="label text-center py-2">Sofa Chair</p>
+                        <p>50 Product</p>
+                      </div>
+                      <div class="btn-card">
+                        <a href="#" class="btn"><i class=" bx bx-shopping-bag"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                <div class="swiper-slide card-product">
+                  <div class="img-box rounded-3 justify-content-center align-items-center py-4 px-2">
+                    <img src="./multimedia/image/product5.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="detail-product mt-3 d-flex justify-content-between">
+                      <div class="info">
+                        <p class="label text-center py-2">Trolley</p>
+                        <p>50 Product</p>
+                      </div>
+                      <div class="btn-card">
+                        <a href="#" class="btn"><i class=" bx bx-shopping-bag"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                <div class="swiper-slide card-product">
+                  <div class="img-box rounded-3 justify-content-center align-items-center py-4 px-2">
+                    <img src="./multimedia/image/product6.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="detail-product mt-3 d-flex justify-content-between">
+                      <div class="info">
+                        <p class="label text-center py-2">Bookshelf</p>
+                        <p>50 Product</p>
+                      </div>
+                      <div class="btn-card">
+                        <a href="#" class="btn"><i class=" bx bx-shopping-bag"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                <div class="swiper-slide card-product">
+                  <div class="img-box rounded-3 justify-content-center align-items-center py-4 px-2">
+                    <img src="./multimedia/image/product7.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="detail-product mt-3 d-flex justify-content-between">
+                      <div class="info">
+                        <p class="label text-center py-2">Storage Shelf</p>
+                        <p>50 Product</p>
+                      </div>
+                      <div class="btn-card">
+                        <a href="#" class="btn"><i class=" bx bx-shopping-bag"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                <div class="swiper-slide card-product">
+                  <div class="img-box rounded-3 justify-content-center align-items-center py-4 px-2">
+                    <img src="./multimedia/image/product8.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="detail-product mt-3 d-flex justify-content-between">
+                      <div class="info">
+                        <p class="label text-center py-2">Wall Shelf</p>
+                        <p>50 Product</p>
+                      </div>
+                      <div class="btn-card">
+                        <a href="#" class="btn"><i class=" bx bx-shopping-bag"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                <div class="swiper-slide card-product">
+                  <div class="img-box rounded-3 justify-content-center align-items-center py-4 px-2">
+                    <img src="./multimedia/image/Nproduct3.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="detail-product mt-3 d-flex justify-content-between">
+                      <div class="info">
+                        <p class="label text-center py-2">Sofa</p>
+                        <p>50 Product</p>
+                      </div>
+                      <div class="btn-card">
+                        <a href="#" class="btn"><i class=" bx bx-shopping-bag"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                <div class="swiper-slide card-product">
+                  <div class="img-box rounded-3 justify-content-center align-items-center py-4 px-2">
+                    <img src="./multimedia/image/Nproduct7.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="detail-product mt-3 d-flex justify-content-between">
+                      <div class="info">
+                        <p class="label text-center py-2">Chair</p>
+                        <p>50 Product</p>
+                      </div>
+                      <div class="btn-card">
+                        <a href="#" class="btn"><i class=" bx bx-shopping-bag"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+          <hr>
+    <!-- End Product -->
+    
+    <!-- New Arrival Product -->
+          <div class="row mt-5">
+            <div class="col">
+              <h1 class="heading">New Arrival Product</h1>
+            </div>
+          </div>
+          <div class="row new-product">
+            <div class="col-lg-3 col-md-6 my-3">
+              <div class="card m-auto new-card" style="width: 18rem;">
+                <div class="img-box d-flex justify-content-center align-items-center py-3">
+                  <img src="./multimedia/image/Nproduct1.png" class="img-fluid" alt="...">
+                </div>
+                <div class="card-body position-relative">
+                  <h5 class="card-title">TROMMA</h5>
+                  <div class="rate d-flex">
+                    <div class="star">
+                      <i class='bx bxs-star text-warning'></i>
+                      <i class='bx bxs-star text-warning'></i>
+                      <i class='bx bxs-star text-warning'></i>
+                      <i class='bx bxs-star text-warning'></i>
+                      <i class='bx bxs-star text-warning'></i>
+                    </div>
+                    <p>(12.5k)</p>
+                  </div>
+                  <div class="price-product d-flex justify-content-between">
+                    <h3 class="price">$2.68</h3>
+                    <a href="#" class="btn position-absolute bottom-0 end-0 d-flex justify-content-center align-items-center p-3"><i class='bx bx-shopping-bag'></i></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 my-3">
+              <div class="card m-auto new-card" style="width: 18rem;">
+                <div class="img-box d-flex justify-content-center align-items-center py-3">
+                  <img src="./multimedia/image/Nproduct2.png" class="img-fluid" alt="...">
+                </div>
+                <div class="card-body position-relative">
+                  <h5 class="card-title">LAUTERS</h5>
+                  <div class="rate d-flex">
+                    <div class="star">
+                      <i class='bx bxs-star text-warning'></i>
+                      <i class='bx bxs-star text-warning'></i>
+                      <i class='bx bxs-star text-warning'></i>
+                      <i class='bx bxs-star text-warning'></i>
+                      <i class='bx bxs-star text-warning'></i>
+                    </div>
+                    <p>(12.5k)</p>
+                  </div>
+                  <div class="price-product d-flex justify-content-between">
+                    <h3 class="price">$60.35</h3>
+                    <a href="#" class="btn position-absolute bottom-0 end-0 d-flex justify-content-center align-items-center p-3"><i class='bx bx-shopping-bag'></i></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 my-3">
+              <div class="card m-auto new-card" style="width: 18rem;">
+                <div class="img-box d-flex justify-content-center align-items-center py-3">
+                  <img src="./multimedia/image/Nproduct3.png" class="img-fluid" alt="...">
+                </div>
+                <div class="card-body position-relative">
+                  <h5 class="card-title">ESSEBODA</h5>
+                  <div class="rate d-flex">
+                    <div class="star">
+                      <i class='bx bxs-star text-warning'></i>
+                      <i class='bx bxs-star text-warning'></i>
+                      <i class='bx bxs-star text-warning'></i>
+                      <i class='bx bxs-star text-warning'></i>
+                      <i class='bx bxs-star text-warning'></i>
+                    </div>
+                    <p>(12.5k)</p>
+                  </div>
+                  <div class="price-product d-flex justify-content-between">
+                    <h3 class="price">$738.09</h3>
+                    <a href="#" class="btn position-absolute bottom-0 end-0 d-flex justify-content-center align-items-center p-3"><i class='bx bx-shopping-bag'></i></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 my-3">
+              <div class="card m-auto new-card" style="width: 18rem;">
+                <div class="img-box d-flex justify-content-center align-items-center py-3">
+                  <img src="./multimedia/image/Nproduct4.png" class="img-fluid" alt="...">
+                </div>
+                <div class="card-body position-relative">
+                  <h5 class="card-title">EKENASET</h5>
+                  <div class="rate d-flex">
+                    <div class="star">
+                      <i class='bx bxs-star text-warning'></i>
+                      <i class='bx bxs-star text-warning'></i>
+                      <i class='bx bxs-star text-warning'></i>
+                      <i class='bx bxs-star text-warning'></i>
+                      <i class='bx bxs-star text-warning'></i>
+                    </div>
+                    <p>(12.5k)</p>
+                  </div>
+                  <div class="price-product d-flex justify-content-between">
+                    <h3 class="price">$248.05</h3>
+                    <a href="#" class="btn position-absolute bottom-0 end-0 d-flex justify-content-center align-items-center p-3"><i class='bx bx-shopping-bag'></i></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 my-3">
+              <div class="card m-auto new-card" style="width: 18rem;">
+                <div class="img-box d-flex justify-content-center align-items-center py-3">
+                  <img src="./multimedia/image/Nproduct5.png" class="img-fluid" alt="...">
+                </div>
+                <div class="card-body position-relative">
+                  <h5 class="card-title">ESPEVÄR/VESTERÖY</h5>
+                  <div class="rate d-flex">
+                    <div class="star">
+                      <i class='bx bxs-star text-warning'></i>
+                      <i class='bx bxs-star text-warning'></i>
+                      <i class='bx bxs-star text-warning'></i>
+                      <i class='bx bxs-star text-warning'></i>
+                      <i class='bx bxs-star text-warning'></i>
+                    </div>
+                    <p>(12.5k)</p>
+                  </div>
+                  <div class="price-product d-flex justify-content-between">
+                    <h3 class="price">$765.15</h3>
+                    <a href="#" class="btn position-absolute bottom-0 end-0 d-flex justify-content-center align-items-center p-3"><i class='bx bx-shopping-bag'></i></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 my-3">
+              <div class="card m-auto new-card" style="width: 18rem;">
+                <div class="img-box d-flex justify-content-center align-items-center py-3">
+                  <img src="./multimedia/image/Nproduct6.png" class="img-fluid" alt="...">
+                </div>
+                <div class="card-body position-relative">
+                  <h5 class="card-title">OSTANO</h5>
+                  <div class="rate d-flex">
+                    <div class="star">
+                      <i class='bx bxs-star text-warning'></i>
+                      <i class='bx bxs-star text-warning'></i>
+                      <i class='bx bxs-star text-warning'></i>
+                      <i class='bx bxs-star text-warning'></i>
+                      <i class='bx bxs-star text-warning'></i>
+                    </div>
+                    <p>(12.5k)</p>
+                  </div>
+                  <div class="price-product d-flex justify-content-between">
+                    <h3 class="price">$23.50</h3>
+                    <a href="#" class="btn position-absolute bottom-0 end-0 d-flex justify-content-center align-items-center p-3"><i class='bx bx-shopping-bag'></i></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 my-3">
+              <div class="card m-auto new-card" style="width: 18rem;">
+                <div class="img-box d-flex justify-content-center align-items-center py-3">
+                  <img src="./multimedia/image/Nproduct7.png" class="img-fluid" alt="...">
+                </div>
+                <div class="card-body position-relative">
+                  <h5 class="card-title">OSKARSHAMN</h5>
+                  <div class="rate d-flex">
+                    <div class="star">
+                      <i class='bx bxs-star text-warning'></i>
+                      <i class='bx bxs-star text-warning'></i>
+                      <i class='bx bxs-star text-warning'></i>
+                      <i class='bx bxs-star text-warning'></i>
+                      <i class='bx bxs-star text-warning'></i>
+                    </div>
+                    <p>(12.5k)</p>
+                  </div>
+                  <div class="price-product d-flex justify-content-between">
+                    <h3 class="price">$402.11</h3>
+                    <a href="#" class="btn position-absolute bottom-0 end-0 d-flex justify-content-center align-items-center p-3"><i class='bx bx-shopping-bag'></i></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 my-3">
+              <div class="card m-auto new-card" style="width: 18rem;">
+                <div class="img-box d-flex justify-content-center align-items-center py-3">
+                  <img src="./multimedia/image/Nproduct8.png" class="img-fluid" alt="...">
+                </div>
+                <div class="card-body position-relative">
+                  <h5 class="card-title">KLINTEN</h5>
+                  <div class="rate d-flex">
+                    <div class="star">
+                      <i class='bx bxs-star text-warning'></i>
+                      <i class='bx bxs-star text-warning'></i>
+                      <i class='bx bxs-star text-warning'></i>
+                      <i class='bx bxs-star text-warning'></i>
+                      <i class='bx bxs-star text-warning'></i>
+                    </div>
+                    <p>(12.5k)</p>
+                  </div>
+                  <div class="price-product d-flex justify-content-between">
+                    <h3 class="price">$82.23</h3>
+                    <a href="#" class="btn position-absolute bottom-0 end-0 d-flex justify-content-center align-items-center p-3"><i class='bx bx-shopping-bag'></i></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col text-center py-lg-5">
+              <div class="card new-card">
+                <p>--------------- No More Product ---------------</p>
+              </div>
+            </div>
+          </div>
+          <div class="btn-load text-center mt-4 mt-lg-2">
+            <a href="" class="btn load-more">Load More</a>
+          </div>
+        </div>
+<!-- End New Arrival Product -->
+
+        <!-- Banner 2 -->
+        <div class="banner2 mt-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 text-white mt-3">
+                <div class="banner-wrapper rounded-3 py-4 px-3 d-flex justify-content-between align-items-center">
+                  <div class="content-left">
+                    <p class="label">Hot Deal</p>
+                    <h1 class="heading">TV Stands And Benches</h1>
+                    <div class="price  d-flex justify-content-between align-items-center mt-4">
+                      <p class="normal">$95</p>
+                      <p class="promo">$80</p>
+                    </div>
+                  </div>
+                  <div class="content-right ms-5">
+                    <img src="./multimedia/image/banner2.png"  alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 text-white mt-3 ">
+                <div class="banner-wrapper rounded-3 py-4 px-3 d-flex justify-content-between align-items-center">
+                  <div class="content-left">
+                    <p class="label">Hot Deal</p>
+                    <h1 class="heading">Sofa Premium Comfotr</h1>
+                    <div class="price  d-flex justify-content-between align-items-center mt-4">
+                      <p class="normal">$429</p>
+                      <p class="promo">$395</p>
+                    </div>
+                  </div>
+                  <div class="content-right ms-5">
+                    <img src="./multimedia/image/banner2.1.png"  alt="">
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Banner 2 -->
+      </section>
+
+      <!-- Article -->
+      <div class="article mt-5" id="article">
+        <div class="container ">
+          <div class="row text-center">
+            <div class="col mt-5">
+              <h1 class="heading">Article</h1>
+          </div>
+          <hr>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./multimedia/image/artikel.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Perfect place to stay and invite guests</h5>
+                <p class="card-text">This house is made for families or couples who like to host events at home. This room is made clean and elegant as well as comfortable for family members and guests who come. Most rooms are dark tones, a bit of navy blue is applied for a bolder look.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+          <div class="card h-100">
+            <img src="./multimedia/image/artikel2.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">When every inch of space is precious</h5>
+                <p class="card-text">This bedroom maximizes all remaining space to become a functional area. The corner area near the wardrobe is transformed into a private workplace.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./multimedia/image/artikel3.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">There is always room for all things</h5>
+                <p class="card-text">This bedroom is made for residents who have lots of storage and clothes. By combining different heights and colors, this room layout can accommodate a lot of items without overcrowding the cabinets.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="row py-3">
+          <div class="col">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./multimedia/image/artikel.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Perfect place to stay and invite guests</h5>
+                <p class="card-text">This house is made for families or couples who like to host events at home. This room is made clean and elegant as well as comfortable for family members and guests who come. Most rooms are dark tones, a bit of navy blue is applied for a bolder look.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./multimedia/image/artikel2.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">When every inch of space is precious</h5>
+                <p class="card-text">This bedroom maximizes all remaining space to become a functional area. The corner area near the wardrobe is transformed into a private workplace.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./multimedia/image/artikel3.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">There is always room for all things</h5>
+                <p class="card-text">This bedroom is made for residents who have lots of storage and clothes. By combining different heights and colors, this room layout can accommodate a lot of items without overcrowding the cabinets.</p>
+              </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <br>
+    <!-- End Article -->
+
+    <!-- Contact us -->
+    <section class="contact mt-5" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h1 class="heading">Contact Us</h1>
+            <p class="subheading">We serve you all the time</p>
+          </div>
+          <hr>
+        </div>
+        <div class="row mt-4">
+          <div class="col-lg-6 text-center ">
+            <img src="./multimedia/image/forCu.jpg" class="img-fluid rounded-3" alt="">
+          </div>
+          <div class="col-lg-6">
+            <form id="contactForm">
+              <!-- Name input -->
+              <div class="mb-3">
+                <label class="form-label" for="name">Name</label>
+                <input class="form-control" id="name" type="text" placeholder="Name" />
+              </div>
+              <!-- Email address input -->
+              <div class="mb-3">
+                <label class="form-label" for="emailAddress">Email Address</label>
+                <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" />
+              </div>
+              <!-- Message input -->
+              <div class="mb-3">
+                <label class="form-label" for="message">Message</label>
+                <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;"></textarea>
+              </div>
+              <!-- Form submit button -->
+              <div class="d-grid">
+                <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact us -->
+
+    <!-- Footer -->
+    <footer class="footer mt-5 pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col1">
+            <h3 class="footer-brand">DREAM INTERIOR</h3>
+            <a href="#" class="mt-3 d-inline-block">dreaminterior@gmail.com</a>
+            <a href="#" class="d-block">+6281234567890</a>
+            <div class="icon-footer mt-3">
+              <a href="#"><i class='bx bxl-whatsapp' ></i></a>
+              <a href="#"><i class='bx bxl-instagram mx-2' ></i></a>
+              <a href="#"><i class='bx bxl-facebook' ></i></a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col2 mt-5 mt-md-0">
+            <h3>Services</h3>
+            <ul class="ps-0">
+              <li><a href="#">House Plant</a></li>
+              <li><a href="#">Gardent Plant</a></li>
+              <li><a href="#">Vase</a></li>
+              <li><a href="#">Fertilizer</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-3 col3 mt-4 mt-md-0">
+            <h3>Information</h3>
+            <ul class="ps-0">
+              <li><a href="#">Product Guide</a></li>
+              <li><a href="#">Requirements</a></li>
+              <li><a href="#">About us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-3 col4 mt-4 mt-lg-0">
+            <h3>Helpfull Link</h3>
+            <ul class="ps-0">
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Customer Support</a></li>
+              <li><a href="#">Maintenance Guide</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-3 col5 mt-4 mt-lg-0 ">
+            <h3>Address</h3>
+            <p class="text-white">Jl. Parahyangan Raya No.kav. 9, Kertajaya, Padalarang, Kabupaten Bandung Barat, Jawa Barat 40553</p>
+            <a href="#">Google Maps</a>  
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p class="text-white text-center mt-4">&copy;Copyright 2023 All Right Reserve | Built by <a href="https://instagram.com/barron.brn">@barron.brn</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  
+    <!-- Swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- My js -->
+    <script src="./js/scripts.js"></script>
+
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  </body>
+</html>

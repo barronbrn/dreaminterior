@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@400;700;900&display=swap");
+
+:root {
+  /* Color */
+  --PrimaryColor: #15133c;
+  --SecondaryColor: #ec994b;
+  /* Font */
+  --mainfont: "Open Sans", sans-serif;
+  --headingfont: "Poppins", sans-serif;
+}
+
+*{
+  box-sizing: border-box !important;
+  text-decoration: none !important;
+}
+
+body {
+  font-family: var(--mainfont);
+}
+
+.heading {
+  font-family: var(--headingfont);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.subheading {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.section-margin{
+  margin-top: 100px;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-family: var(--headingfont);
+  font-weight: 900;
+  font-size: 20px;
+}
+.navbar {
+  background-color: var(--PrimaryColor) !important;
+  font-size: 14px;
+  font-weight: 700;
+}
+.nav-link {
+  font-family: var(--headingfont);
+}
+.nav-link.active {
+  font-weight: 700;
+  color: var(--SecondaryColor) !important;
+}
+.icon-home i{
+  font-size: 1.8rem;
+  color: var(--SecondaryColor);
+}
+/* Home */
+.home {
+  background-color: var(--PrimaryColor);
+  height: 475px;
+  padding-top: 10rem;
+}
+.home .heading {
+  color: var(--SecondaryColor);
+}
+
+.btn-home .btn-buy {
+  background-color: var(--SecondaryColor);
+  font-family: var(--headingfont);
+  font-weight: 700;
+}
+.btn-home .btn-more {
+  border: 2px solid var(--SecondaryColor);
+  color: var(--SecondaryColor);
+  font-family: var(--headingfont);
+  font-weight: 700;
+}
+
+/* Service */
+.card-service{
+  background-color: var(--PrimaryColor);
+  color: #fff;
+}
+.card-service .btn-service{
+  border: 2px solid var(--SecondaryColor);
+  color: var(--SecondaryColor);
+  font-family: var(--headingfont);
+  font-weight: 700;
+}
+.card-service .btn-service:hover{
+  background-color: var(--SecondaryColor);
+  color: var(--PrimaryColor);
+}
+.banner1{
+  height: 450px;
+}
+.banner1 .container{
+  background-color: var(--PrimaryColor);
+}
+.banner1 .btn-banner1{
+  background-color: var(--SecondaryColor);
+}
+
+
+/* Product */
+.product .popular h3{
+  font-size: 22px;
+}
+.popular i{
+  font-size: 2.5rem;
+  color: var(--SecondaryColor);
+}
+.product-popular .card-product{
+  width: 190px;
+}
+.product-popular .img-box{
+  border: 2px solid var(--PrimaryColor);
+}
+.detail-product .label{
+  background-color: var(--PrimaryColor);
+  width: 100px;
+  color: #fff;
+}
+.detail-product a{
+  border: 2px solid var(--SecondaryColor);
+  color: var(--SecondaryColor);
+  font-size: 1.8rem;
+}
+.detail-product a:hover{
+  background-color: var(--SecondaryColor);
+  color: var(--PrimaryColor);
+}
+
+/* New Product */
+.new-product .img-box{
+  background-color: var(--PrimaryColor);
+}
+.new-product .card-title{
+  font-family: var(--headingfont);
+  font-weight: 700;
+}
+.price-product i{
+  font-size: 1.8rem;
+}
+.price-product a{
+  border: 2px solid var(--SecondaryColor);
+  color: var(--SecondaryColor);
+}
+.price-product a:hover{
+  background-color: var(--SecondaryColor);
+}
+.btn-load a{
+  background-color: var(--SecondaryColor);
+  color: #fff;
+}
+.new-card{
+  display: none;
+}
+
+/* Banner 2 */
+.banner2 .banner-wrapper{
+  background-color: var(--PrimaryColor);
+}
+.banner2 .price{
+  width: 100%;
+}
+.banner2 .price p{
+  font-size: 20px;
+}
+.banner2 .price .normal{
+  text-decoration: line-through !important;
+}
+.banner2 .price .promo{
+  font-family: var(--headingfont);
+  font-weight: 800;
+  color: var(--SecondaryColor);  
+}
+.banner2 img{
+  width: 90%;
+}
+/* End Banner2 */
+
+
+/* Article */
+.article .card-title{
+  font-family: var(--headingfont);
+  font-weight: 700;
+}
+.article .card-text{
+  font-family: var(--);
+  font-weight: 700;
+}
+
+/* Contact us */
+form .btn{
+  background-color: var(--SecondaryColor);
+}
+
+
+/* footer */
+.footer{
+  background-color: var(--PrimaryColor);
+  border-radius: 20px 20px 0 0;
+  margin-top: 100px !important;
+}
+.footer .footer-brand{
+  color: #fff;
+  font-family: var(--headingfont);
+  font-weight: 800;
+}
+.footer .icon-footer{
+  font-size: 2rem;
+}
+.footer i{
+  color: var(--SecondaryColor);
+}
+.col1 a{
+  color: #fff;
+}
+.col2 h3, .col3 h3, .col4 h3, .col5 h3{
+  color: #fff;
+  font-family: var(--headingfont);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.col2 ul li, .col3 ul li, .col4 ul li{
+  list-style: none;
+  margin: 10px;
+}
+.col2 a, .col3 a, .col4 a{
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .home {
+    padding-top: 14rem;
+  }
+  .home .heading {
+    font-size: 36px;
+  }
+  .banner1 img{
+    width: 300px;
+  }
+  .popular i{
+  font-size: 2.9rem;
+  }
+  .banner2 .price{
+  width: 50%;
+  }
+  .banner2 img{
+  width: 70%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .section-margin{
+    margin-top: 200px;
+  }
+  .home .content-left{
+    padding-bottom: 40px;
+  }
+  .home .heading {
+    font-size: 46px;
+  }
+  .home .subheading {
+    font-size: 20px;
+  }
+  .home img{
+    right: 0; 
+    bottom: -45%;
+  }
+  .home .container, .home .row{
+    height: 100%;
+  }
+  .banner1 .container{
+    padding: 0 4rem;
+  }
+  .banner1 img{
+    width: 450px;
+  }
+}
