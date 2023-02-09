@@ -1,3 +1,7 @@
+// Nama : Dani Herawan
+// NIM : 10122331
+// Kelas : IF-9
+
 $(() => {
   $(".new-card").slice(0, 4).show();
   $(".load-more").click(function (e) {
